@@ -6,7 +6,7 @@
 package sxpgui;
 
 import sxpgui.controller.LoginController;
-import com.sun.javaws.WinOperaSupport;
+//import com.sun.javaws.WinOperaSupport;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

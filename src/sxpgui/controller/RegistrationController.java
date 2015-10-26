@@ -7,7 +7,10 @@ package sxpgui.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Hyperlink;
 
 /**
  * FXML Controller class
@@ -15,7 +18,11 @@ import javafx.fxml.Initializable;
  * @author Yassine
  */
 public class RegistrationController implements Initializable {
-
+    
+    @FXML
+    private Hyperlink registration;
+    @FXML
+    private Button register;
     /**
      * Initializes the controller class.
      */
@@ -24,4 +31,8 @@ public class RegistrationController implements Initializable {
         // TODO
     }    
     
+    public void registration (){
+        System.out.println("boobs");
+    }
+
 }
