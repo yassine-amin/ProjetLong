@@ -18,11 +18,14 @@ import javafx.stage.Stage;
  * @author Yassine
  */
 public class SXPGUI extends Application {
+    
+    private BorderPane rootLayout;
     @Override
     public void start(Stage stage) throws Exception {        
         try{
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(SXPGUI.class.getResource("fxml/login.fxml"));
+            loader.setLocation(SXPGUI.class.getResource("login.fxml"));
+            System.out.println("zab");
             BorderPane ap = loader.load();
             LoginController loginController = loader.getController();
             loginController.setMainStage(stage);
@@ -30,7 +33,7 @@ public class SXPGUI extends Application {
             stage.setScene(sc);
             stage.show();
         }catch(Exception e){
-            System.out.println("Erreur");
+            System.out.println(e.getMessage());
         }
         //stage.setScene(scene);
     }
