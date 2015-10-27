@@ -63,7 +63,7 @@ public class LoginController implements Initializable {
         try {
         // Load the fxml file and create a new stage for the popup dialog.
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(SXPGUI.class.getResource("fxml/registration.fxml"));
+        loader.setLocation(SXPGUI.class.getResource("registration.fxml"));
         AnchorPane page = (AnchorPane) loader.load();
 
         // Create the dialog Stage.

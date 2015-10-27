@@ -25,8 +25,8 @@ public class SXPGUI extends Application {
         try{
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(SXPGUI.class.getResource("login.fxml"));
-            System.out.println("zab");
             BorderPane ap = loader.load();
+            System.out.println("Location OK");
             LoginController loginController = loader.getController();
             loginController.setMainStage(stage);
             Scene sc = new Scene(ap);
