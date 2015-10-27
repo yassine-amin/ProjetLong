@@ -21,7 +21,6 @@
       <Label layoutX="41.0" layoutY="48.0" prefHeight="17.0" prefWidth="135.0" text="UserName" />
       <PasswordField layoutX="250.0" layoutY="247.0" prefHeight="25.0" prefWidth="202.0" />
       <PasswordField layoutX="250.0" layoutY="289.0" prefHeight="25.0" prefWidth="202.0" />
-      <Button layoutX="250.0" layoutY="333.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Annuler" />
-      <Hyperlink fx:id="registration" layoutX="372.0" layoutY="359.0" onAction="#registration" text="Se co" textAlignment="CENTER" textFill="#571717" textOverrun="WORD_ELLIPSIS" />
+      <Button layoutX="250.0" layoutY="333.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Annuler1" />
    </children>
 </AnchorPane>
