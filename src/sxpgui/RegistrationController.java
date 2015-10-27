@@ -30,7 +30,13 @@ public class RegistrationController implements Initializable {
     }    
     
     public void registration (){
-        System.out.println("boobs");
+        System.out.println("Début registration");
+         System.out.println("registration***");
+        controller.ManagerBridge.registration("aaa", "aaa", "aaa", "aaa", "aaa", "aaa");
+        System.out.println("registration OK");
+        System.out.println("registration OK");
+        
+        
     }
 
 }

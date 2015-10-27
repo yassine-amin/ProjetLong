@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sxpgui.controller.RegistrationController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegistrationController">
    <children>
       <TextField layoutX="250.0" layoutY="44.0" prefHeight="25.0" prefWidth="202.0" />
       <TextField layoutX="250.0" layoutY="204.0" prefHeight="25.0" prefWidth="202.0" />
